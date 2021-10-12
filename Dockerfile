@@ -1,5 +1,5 @@
 FROM httpd:latest
-LABEL maintainer="compiler@aast.edu"
+LABEL maintainer="kataya1@kataya1.com"
 RUN apt update
 RUN apt -y install python3
 COPY hello.py /usr/local/apache2/cgi-bin
